@@ -98,9 +98,9 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
-    fname2 = "AnkiVectorLogo.png"
+    fname2 = "EzilaXBotVLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @EzilaXBot ☮️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @EzilaXBot")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -137,7 +137,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "EzilaXBotVLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @EzilaXBot ☮️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @EzilaXBot")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -187,9 +187,9 @@ file_helpo = file_help.replace("_", " ")
 
 
 __help__ = """
-@szrosebot
+@EzilaXBot
  ❍ /logo text :  Create your logo with your name
  ❍ /biglogo text :  Create your logo Bigger Than `logo`
  ❍ /wlogo text :  Create your logo with your name
  """
-__mod_name__ = "Logo Maker☮️"
+__mod_name__ = "Logo Maker"
