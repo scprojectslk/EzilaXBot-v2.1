@@ -61,8 +61,8 @@ wget
 youtube_search
 
 #ImageEditor
+
 glitch_this
 NumPy
 opencv-python-headless
 Pillow
-
