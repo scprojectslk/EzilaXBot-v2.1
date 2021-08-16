@@ -60,17 +60,17 @@ async def fetch(url):
         return
 
 
-daisy_chats = []
+ezilax_chats = []
 en_chats = []
 # AI Chat (C) 2020-2021 by @InukaAsith
 
 
-@daisyx.on_message(
+@ezilax.on_message(
     filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
 async def hmm(_, message):
-    global daisy_chats
+    global ezilax_chats
     if len(message.command) != 2:
         await message.reply_text(
             "I only recognize `/chatbot on` and /chatbot `off only`"
@@ -111,7 +111,7 @@ async def hmm(_, message):
         )
 
 
-@daisyx.on_message(
+@ezilax.on_message(
     filters.text
     & filters.reply
     & ~filters.bot
@@ -147,7 +147,7 @@ async def hmm(client, message):
 
         pro = response
         try:
-            await daisyx.send_chat_action(message.chat.id, "typing")
+            await ezilax.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -212,13 +212,13 @@ async def hmm(client, message):
             except:
                 return
         try:
-            await daisyx.send_chat_action(message.chat.id, "typing")
+            await ezilax.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
 
 
-@daisyx.on_message(
+@ezilax.on_message(
     filters.text & filters.private & ~filters.edited & filters.reply & ~filters.bot
 )
 async def inuka(client, message):
@@ -281,13 +281,13 @@ async def inuka(client, message):
         pro = translator.translate(pro, dest=lan)
         pro = pro.text
     try:
-        await daisyx.send_chat_action(message.chat.id, "typing")
+        await ezilax.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return
 
 
-@daisyx.on_message(
+@ezilax.on_message(
     filters.regex("EzilaX|ezilax|EzilaX|ezilax|EzilaX")
     & ~filters.bot
     & ~filters.via_bot
