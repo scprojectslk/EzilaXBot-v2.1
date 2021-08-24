@@ -72,10 +72,10 @@ Hit /help to find my list of available commands
 buttons = [
     [
         InlineKeyboardButton(
-            text="📢Updates Channel", url="https://t.me/Ezila_Updates"
+            text="EzilaX News 🙋‍♂️", url="https://t.me/Ezila_Updates"
         ),
         InlineKeyboardButton(
-            text="👥 Support Group", url="https://t.me/Ezila_Support"
+            text="Support Group 💬", url="https://t.me/Ezila_Support"
         ),
     ],
     [
@@ -83,12 +83,12 @@ buttons = [
             text="📜Source", url="Github.com/Sadew451/EzilaXBot-V2"
         ),
         InlineKeyboardButton(
-            text="❔ Help", url="http://t.me/EzilaXBot?start=help"
+            text="Commands Help ❓", url="http://t.me/EzilaXBot?start=help"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add EzilaX to your group ➕",
+            text="➕ Add Me to your group ➕",
             url="t.me/EzilaXBot?startgroup=true",
         ),
     ],
@@ -384,10 +384,10 @@ def AnkiVector_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="How To Use Me", callback_data="aboutmanu_howto"
+                            text="🙋‍♀️ How To Use Me", callback_data="aboutmanu_howto"
                         ),
                         InlineKeyboardButton(
-                            text="Terms and Conditions", callback_data="aboutmanu_tac"
+                            text="🗒 Terms and Conditions", callback_data="aboutmanu_tac"
                         ),
                     ],
                     [InlineKeyboardButton(text="Help", callback_data="help_back")],
