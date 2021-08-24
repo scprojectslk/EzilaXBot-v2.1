@@ -97,7 +97,7 @@ buttons = [
 EZILAX_IMG = "https://telegra.ph/file/584b1539d736325fab377.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/584b1539d736325fab377.jpg)
+*Main Commands :* [🤖]()
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
