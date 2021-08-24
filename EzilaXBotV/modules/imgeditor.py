@@ -56,7 +56,7 @@ from EzilaXBotV.Addons.ImageEditor.edit_5 import (  # pylint:disable=import-erro
     scanlineglitch_4,
     scanlineglitch_5,
 )
-from EzilaXBotV.Best_Of_EzilaXBotV.pyrogram import Sophia as Client
+from EzilaXBotV.Best_Of_EzilaXBotV.pyrogram import EzilaXBotV as Client
 
 lel = 00000000
 # pylint:disable=import-error
