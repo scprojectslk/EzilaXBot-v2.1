@@ -1,5 +1,5 @@
 # By @TroJanzHEX
-# Edited By Sadew Jayasekara
+# Improved by TeamSDBOTs
 
 from pyrogram import filters
 from pyrogram.types import (
@@ -10,7 +10,7 @@ from pyrogram.types import (
 )
 
 # By @TroJanzHEX
-from EzilaXBotV.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-error
+from DaisyX.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-error
     black_white,
     box_blur,
     bright,
@@ -64,7 +64,7 @@ lel = 00000000
 async def photo(client: Client, message: Message):
     try:
         if not message.reply_to_message.photo:
-            await message.reply_text("Reply to an image Man 😌 ", quote=True)
+            await client.send_message(message.chat.id, "Reply to an image man!ㅤㅤ")
             return
     except:
         return
@@ -80,36 +80,36 @@ async def photo(client: Client, message: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="💡 Bright", callback_data="bright"),
-                        InlineKeyboardButton(text="🖼 Mixed", callback_data="mix"),
+                        InlineKeyboardButton(text="💡 BRIGHT", callback_data="bright"),
+                        InlineKeyboardButton(text="🖼 MIXED", callback_data="mix"),
                         InlineKeyboardButton(text="🔳 B&W", callback_data="b|w"),
                     ],
                     [
-                        InlineKeyboardButton(text="🟡 Circle", callback_data="circle"),
-                        InlineKeyboardButton(text="🩸 Blur", callback_data="blur"),
-                        InlineKeyboardButton(text="🌌 Border", callback_data="border"),
+                        InlineKeyboardButton(text="🟡 CIRCLE", callback_data="circle"),
+                        InlineKeyboardButton(text="🩸 BLUR", callback_data="blur"),
+                        InlineKeyboardButton(text="🌌 BORDER", callback_data="border"),
                     ],
                     [
-                        InlineKeyboardButton(text="🎉 Sticker", callback_data="stick"),
-                        InlineKeyboardButton(text="↩️ Rotate", callback_data="rotate"),
+                        InlineKeyboardButton(text="🎉 STICKER", callback_data="stick"),
+                        InlineKeyboardButton(text="↩️ ROTATE", callback_data="rotate"),
                         InlineKeyboardButton(
                             text="🔦 CONTRAST", callback_data="contrast"
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="🌇 Sepia", callback_data="sepia"),
-                        InlineKeyboardButton(text="✏️ Pencil", callback_data="pencil"),
-                        InlineKeyboardButton(text="🐶 Cartoon", callback_data="cartoon"),
+                        InlineKeyboardButton(text="🌇 SEPIA", callback_data="sepia"),
+                        InlineKeyboardButton(text="✏️ PENCIL", callback_data="pencil"),
+                        InlineKeyboardButton(text="🐶 CARTOON", callback_data="cartoon"),
                     ],
                     [
-                        InlineKeyboardButton(text="🔄 Invert", callback_data="inverted"),
-                        InlineKeyboardButton(text="🔮 Glitch", callback_data="glitch"),
+                        InlineKeyboardButton(text="🔄 INVERT", callback_data="inverted"),
+                        InlineKeyboardButton(text="🔮 GLITCH", callback_data="glitch"),
                         InlineKeyboardButton(
-                            text="✂️ Remove BG", callback_data="removebg"
+                            text="✂️ REMOVE BG", callback_data="removebg"
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="❌ Close", callback_data="close_e"),
+                        InlineKeyboardButton(text="❌ CLOSE", callback_data="close_e"),
                     ],
                 ]
             ),
@@ -137,15 +137,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [
                         [
                             InlineKeyboardButton(
-                                text="With White BG", callback_data="rmbgwhite"
+                                text="WITH WHITE BG", callback_data="rmbgwhite"
                             ),
                             InlineKeyboardButton(
-                                text="Without BG", callback_data="rmbgplain"
+                                text="WITHOUT BG", callback_data="rmbgplain"
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Sticker", callback_data="rmbgsticker"
+                                text="STICKER", callback_data="rmbgsticker"
                             )
                         ],
                     ]
@@ -274,10 +274,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [
                         [
                             InlineKeyboardButton(
-                                text="With BG", callback_data="circlewithbg"
+                                text="WITH BG", callback_data="circlewithbg"
                             ),
                             InlineKeyboardButton(
-                                text="Without BG", callback_data="circlewithoutbg"
+                                text="WITHOUT BG", callback_data="circlewithoutbg"
                             ),
                         ]
                     ]
@@ -452,10 +452,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 __mod_name__ = "Image Editor"
 __help__ = """
-<b> Image Editor </b>
-Sophiazy have some advanced image editing tools inbuilt
+<b> IMAGE EDITOR </b>
+Daisy have some advanced image editing tools inbuilt
 Bright, Circle, RemBG, Blur, Border, Flip, Glitch, Sticker maker and more
 - /edit [reply to image]: Open the image editor
-- /rmbg [REPLY]: Revove BG of replied image or sticker.
-<i> Special credits to TroJanzHEX ❤</i>
+- /rmbg [REPLY]: Revove BG of replied image/sticker.
+<i> Special credits to TroJanzHEX </i>
 """
