@@ -10,7 +10,7 @@ from pyrogram.types import (
 )
 
 # By @TroJanzHEX
-from DaisyX.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-error
+from EzilaXBotV.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-error
     black_white,
     box_blur,
     bright,
