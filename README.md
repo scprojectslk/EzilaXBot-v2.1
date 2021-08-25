@@ -15,9 +15,9 @@ Complete guide on deploying @EzilaXBot's clone on Heroku.
 [![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://youtu.be/fcXPoq4FcWw)
 
 ## New version Avaiilable on Telegram as [EzilaXBot](https://t.me/EzilaXBot)
+
+
 ## EzilaXBot is the latest
-
-
 
 
 The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
@@ -41,4 +41,4 @@ The EzilaX bot(advanced)
 
 ## Special Credits
 - [Sadew](https://github.com/Sadew451) - A Co-Developer of Project
-- [Damantha](https://github.com/Damantha126) 
+- [Damantha](https://github.com/Damantha126) - DEV
