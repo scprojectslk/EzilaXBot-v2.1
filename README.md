@@ -6,6 +6,36 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/EzilaXBot-V2.1.git)
 
+# Vars
+REQUIRED VARS 👇
+
+```ALLOW_EXCL``` :- Set this to True if you want ! to be a command prefix along with /. Recommended is True
+
+```API_HASH``` :- Get API_HASH from my.telegram.org, used for telethon based modules.
+
+```API_ID``` :- Get API_ID from my.telegram.org, used for telethon based modules.
+
+```CASH_API_KEY``` :- Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key
+
+```DEL_CMDS``` :- Set this to True if you want to delete command messages from users who don't have the perms to run that command.
+
+```ENV``` :- Setting this to ANYTHING will enable environment variables. Leave it as it is
+
+```EVENT_LOGS``` :- Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'
+
+```JOIN_LOGGER``` :- A channel where bot will print who added it to what group, useful during debugging or spam handling.
+
+```OWNER_ID``` :- Your user ID as an integer
+
+```OWNER_USERNAME``` :- Your username without the @ (Example If Your Username @Darkridersslk then the value will be Darkridersslk)
+
+```STRICT_GBAN``` :- Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned
+
+```SUPPORT_CHAT``` :- Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.
+
+```TIME_API_KEY``` :- Required for timezone information. Get yours from https://timezonedb.com/api
+
+```TOKEN``` :- Your bot token. Get one from [**@BotFather**](https://t.me/BotFather)
 
 ### Video Tutorial:
 Complete guide on deploying @EzilaXBot's clone on Heroku.
